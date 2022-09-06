@@ -368,13 +368,22 @@ img {
 
 
 .projects__link {
-    display: inline-flex;
+    display: flex;
     font-size: 1.5rem;
     background-color: var(--first-color-lighten);
     color: var(--first-color);
     padding: .25rem;
     border-radius: .25rem;
     margin-bottom: var(--mb-2);
+}
+
+.projects__link-group {
+    display: flex;
+    justify-content: center;
+}
+
+.projects__link-group .projects__link {
+    margin: 1rem;
 }
 
 
